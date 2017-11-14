@@ -1,0 +1,143 @@
+.quote {
+    font: 400 72px Helvetica, sans-serif;
+    text-align: center;
+}
+
+.post-title {
+
+}
+body {
+    /*background: #f5f5f5;*/
+    background-image: url('/resources/body_bg.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-container {
+
+}
+.row-post_item {
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #ffffff;
+    -webkit-box-shadow: 0 7px 7px 7px rgba(0, 0, 0, 0.53);
+    box-shadow: 0 7px 7px 7px rgba(0, 0, 0, 0.53);
+}
+.row-post_item-image img {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.image-wrapper {
+    height: 140px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row-post_item-image {
+    margin: 0;
+
+}
+.post-body .row-post_item {
+    padding: 0;
+}
+.post-body .row-post_item .row-pad {
+    padding: 25px;
+}
+.row-post_item h1 {
+    margin-top: 0;
+}
+.row-post_item__image img{
+    display: block;
+    width: 100%;
+}
+.article-text {
+    height: 55px;
+}
+.read-more {
+    display: block;
+    margin-top: 5px;
+}
+header {
+    height: 325px;
+    background: url('/resources/header_bg.jpg') no-repeat 50% 50%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-box-shadow: 0 13px 4px 6px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 0 13px 4px 6px rgba(0, 0, 0, 0.53);
+    box-shadow: 0 13px 4px 6px rgba(0, 0, 0, 0.53);
+}
+header .navbar-default {
+    background: transparent;
+    border:0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    position: relative;
+}
+header .navbar-default li {
+    padding: 15px;
+}
+header .navbar-default li > a {
+    color: #ddd!important;
+    opacity:0.7;
+    font-size: 26px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+header .navbar-default li a{
+    position: relative;
+}
+header .navbar-default li > a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s
+}
+header .navbar-default li:hover {
+    opacity: 1;
+}
+header .navbar-default li:hover a:after {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s
+}
+header .navbar-default li:hover  > a{
+    color: #ffffff!important;
+}
+
+header .navbar-brand {
+    font-size: 40px;
+    color: #ffffff!important;
+    padding: 25px;
+}
+header{
+    position: relative;
+}
+.header-text {
+    color: #dddddd;
+    position: absolute;
+    right: 5%;
+    bottom: 90px;
+}
